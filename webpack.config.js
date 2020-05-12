@@ -9,5 +9,14 @@ module.exports = {
   },
   devServer: {
     inline: false
+  },
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      }
+    ]
   }
 };

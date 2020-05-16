@@ -3,7 +3,17 @@
   "compilerOptions": {
     "removeComments": true,
 //    "outFile": "../js/app.js"
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "traceResolution": false
+//    "baseUrl": "./modules",
+//    // relative to baseUrl
+//    "paths": {
+//      "my_lib": ["./customPath"]
+//    },
+//    "rootDirs": [
+//      "app/modules"
+//    ]
   },
 //  "include": [
 //    "./**/*.ts"
